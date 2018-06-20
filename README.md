@@ -58,7 +58,7 @@ A simple web app to show information of random Beer Sample Records from the Data
  ## Output and Screen Shots:
  ### GUI Web
  1. Show Random Beer functionality
- ![output](https://media.giphy.com/media/8gKZYed4sBOkt0rHZ6/giphy.gif)
+ ![output](https://github.com/Anubhavj02/RandomBeerApp/blob/master/output/output5.gif)
  
  2. Manage Beer
  ![output](https://github.com/Anubhavj02/RandomBeerApp/blob/master/output/output2.png)
