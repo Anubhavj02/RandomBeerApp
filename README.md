@@ -5,19 +5,16 @@ A simple web app to show information of random Beer Sample Records from the Data
 ![output](https://github.com/Anubhavj02/RandomBeerApp/blob/master/output/output1.png)
 
 ## Technical Stack
-### Backend
+#### Backend
 * Spring 4.3.0
 * Hibernate 5.2
-
-### Frontend
+#### Frontend
 * Angular 1.4.9
 * Bootstrap 4
 * jQuery 3.3.1
-
-## Database
+#### Database
 * MySQL 5.7
-
-## Testing
+#### Testing
 * Junit 4
 * Mockito 1.9.5
 
