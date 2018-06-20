@@ -32,14 +32,12 @@ A simple web app to show information of random Beer Sample Records from the Data
 1. Install maven 3.5.3 and set MVN_HOME
 2. Instal MySQL 5.7 and run the MySQL service on port 3306(Ensure the MySql service is running on the machine)
 
-3. Creating Database, tables and some initial entries or run **RandomBeerApp/sql/createbeerdb.sql** <br/><br/>
-
-
-Create a Database with name "BeerDB"
+3. Creating Database, tables and some initial entries or run **RandomBeerApp/sql/createbeerdb.sql**
+* Create a Database with name "BeerDB"
 ```sql
 create database BeerDB;
 ```
-Create Beer table
+* Create Beer table
 ```sql
 CREATE TABLE `Beer` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
@@ -51,7 +49,7 @@ CREATE TABLE `Beer` (
   PRIMARY KEY (`id`)
 );
 ```
-Load some initial Entries
+* Load some initial Entries
 ```sql
 CREATE DATABASE BeerDB;
 
