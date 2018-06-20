@@ -26,14 +26,14 @@ A simple web app to show information of random Beer Sample Records from the Data
 1. Install maven 3.5.3 and set MVN_HOME
 2. Install Tomcat 7
 3. Clone the repository and change path to the cloned directory
-```shell
-$ git clone https://github.com/Anubhavj02/RandomBeerApp.git
-$ cd RandomBeerApp
-```
+  ```shell
+  $ git clone https://github.com/Anubhavj02/RandomBeerApp.git
+  $ cd RandomBeerApp
+  ```
 4. Do maven clean install; this will build the application and run all the test cases
-```shell
-$ mvn clean install
-```
+  ```shell
+  $ mvn clean install
+  ```
 5. There are two ways to run on server:
 * Using Maven tomcat plugin
 ```shell
