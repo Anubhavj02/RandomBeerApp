@@ -1,0 +1,9 @@
+com/beer/app/dao/BeerDao.class
+com/beer/app/controller/BeerController.class
+com/beer/app/service/BeerServiceImpl.class
+com/beer/app/dao/BeerDaoImpl.class
+com/beer/app/config/AppConfig.class
+com/beer/app/config/WebAppInitializer.class
+com/beer/app/service/BeerService.class
+com/beer/app/config/WebConfig.class
+com/beer/app/model/Beer.class
