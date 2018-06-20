@@ -45,9 +45,10 @@ app.controller('BeerController', ['$scope', 'Beer', function($scope, Beer) {
     ob.updateBeerDetail = function(){
 	if($scope.beerForm.$valid) {
     	   ob.beer.$updateBeer(function(beer){
-    		console.log(beer); 
 		ob.updatedId = beer.id;
+		$('#editBeerModal').modal('hide');
 				ob.reset();
+				
     		ob.fetchAllBeers();
            });
 	}
