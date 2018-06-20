@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="com.beer.app.dao.BeerDaoTest" time="0.355" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="com.beer.app.dao.BeerDaoTest" time="0.342" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.1+11"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/anubhavjain/eclipse-workspace/RandomBeerApp"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/anubhavjain/Documents/RandomBeerApp"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="IE"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/anubhavjain/eclipse-workspace/RandomBeerApp"/>
+    <property name="user.dir" value="/Users/anubhavjain/Documents/RandomBeerApp"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="9.0.1+11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
@@ -26,14 +26,16 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/anubhavjain/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2415815966469899262.tmp"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.3/libexec/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/anubhavjain/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.3/libexec/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="53.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.13.3"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.3/libexec/lib/jansi-native"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/anubhavjain"/>
     <property name="user.timezone" value="Europe/Dublin"/>
@@ -41,10 +43,10 @@
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="9"/>
     <property name="user.name" value="anubhavjain"/>
-    <property name="java.class.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.9.0.20180606-2035/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.3/libexec/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="9"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -52,7 +54,7 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="9.0.1"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/Users/anubhavjain/eclipse-workspace/RandomBeerApp/EMBEDDED"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.3/libexec"/>
     <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
@@ -61,9 +63,9 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.beer.app.dao.BeerDaoTest" name="testSave" time="0.159"/>
-  <testcase classname="com.beer.app.dao.BeerDaoTest" name="testFindById" time="0.005"/>
-  <testcase classname="com.beer.app.dao.BeerDaoTest" name="testDelete" time="0.004"/>
-  <testcase classname="com.beer.app.dao.BeerDaoTest" name="testGetAll" time="0.171"/>
-  <testcase classname="com.beer.app.dao.BeerDaoTest" name="testUpdate" time="0.016"/>
+  <testcase classname="com.beer.app.dao.BeerDaoTest" name="testSave" time="0.148"/>
+  <testcase classname="com.beer.app.dao.BeerDaoTest" name="testFindById" time="0.006"/>
+  <testcase classname="com.beer.app.dao.BeerDaoTest" name="testDelete" time="0.007"/>
+  <testcase classname="com.beer.app.dao.BeerDaoTest" name="testGetAll" time="0.161"/>
+  <testcase classname="com.beer.app.dao.BeerDaoTest" name="testUpdate" time="0.02"/>
 </testsuite>
