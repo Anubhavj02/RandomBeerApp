@@ -126,17 +126,17 @@ body {
 						</div>
 						<div class="form-group">
 							<label>Beer Description</label>
-							<textarea name="description" ng-model="beerCtrl.beer.description"
+							<textarea maxlength="2000" name="description" ng-model="beerCtrl.beer.description"
 								class="form-control" required></textarea>
 						</div>
 						<div class="form-group">
 							<label>Brewery Location</label>
-							<textarea name="breweryLocation"
+							<textarea maxlength="255" name="breweryLocation"
 								ng-model="beerCtrl.beer.breweryLocation" class="form-control"
 								required></textarea>
 						</div>
 						<div class="form-group">
-							<label>Upload Image</label> <input name="imageUrl"
+							<label>Upload Image</label> <input maxlength="200 name="imageUrl"
 								ng-model="beerCtrl.beer.imageUrl" class="form-control" required>
 						</div>
 					</div>
@@ -172,17 +172,17 @@ body {
 						</div>
 						<div class="form-group">
 							<label>Beer Description</label>
-							<textarea name="description" ng-model="beerCtrl.beer.description"
+							<textarea maxlength="2000" name="description" ng-model="beerCtrl.beer.description"
 								class="form-control" required></textarea>
 						</div>
 						<div class="form-group">
 							<label>Brewery Location</label>
-							<textarea name="breweryLocation"
+							<textarea maxlength="255" name="breweryLocation"
 								ng-model="beerCtrl.beer.breweryLocation" class="form-control"
 								required></textarea>
 						</div>
 						<div class="form-group">
-							<label>Upload Image</label> <input name="imageUrl"
+							<label>Upload Image</label> <input maxlength="200" name="imageUrl"
 								ng-model="beerCtrl.beer.imageUrl" class="form-control" required>
 						</div>
 					</div>
