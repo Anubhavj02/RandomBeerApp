@@ -41,14 +41,14 @@ $ mvn tomcat7:run
 ```
 Access http://localhost:8080/RandomBeerApp
 
-* Using installed tomcat; after Maven Clean install, a WAR file is made in the target directory
-```
-Copy the the WAR file "RandomBeerApp/target/RandomBeerApp.war" to "---Your_Tomcat_Directory---/webapps"
-and then; run the tomcat server.
-```
-```shell
-$ sh Your_Tomcat_Directory/bin/startup.sh
-```
-Access http://localhost:8080/RandomBeerApp
+  * Using installed tomcat; after Maven Clean install, a WAR file is made in the target directory
+  ```
+  Copy the the WAR file "RandomBeerApp/target/RandomBeerApp.war" to "---Your_Tomcat_Directory---/webapps"
+  and then; run the tomcat server.
+  ```
+  ```shell
+  $ sh Your_Tomcat_Directory/bin/startup.sh
+  ```
+  Access http://localhost:8080/RandomBeerApp
 
 
