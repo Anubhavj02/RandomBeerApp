@@ -30,7 +30,7 @@
 
 <style type="text/css">
 body {
-	background: url('<c:url value='/ assets/ images/ beer_background.jpg ' />')
+	background: url('<c:url value='/assets/images/beer_background.jpg' />')
 		no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
