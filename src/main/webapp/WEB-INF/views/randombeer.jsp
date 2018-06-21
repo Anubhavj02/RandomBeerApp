@@ -15,7 +15,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Full - Start Bootstrap Template</title>
+<title>Random Beer App</title>
 
 <link href="<c:url value='/assets/css/bootstrap.min.css' />"
 	rel="stylesheet">
